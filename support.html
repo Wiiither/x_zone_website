@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>技术支持 - X Zone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">X Zone</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="support.html" class="nav-link active">技术支持</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="support-hero">
+        <div class="container">
+            <h1 class="support-title">技术支持</h1>
+            <p class="support-subtitle">我们随时准备为您提供帮助</p>
+        </div>
+    </header>
+
+    <section class="support-content">
+        <div class="container">
+            <div class="support-grid">
+                <div class="support-main">
+                    <div class="support-card">
+                        <div class="support-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <h2 class="support-card-title">联系我们</h2>
+                        <p class="support-card-desc">
+                            如果您在使用 X Zone 时遇到任何问题，或有任何建议和反馈，欢迎通过邮件与我们联系。我们会尽快回复您的邮件。
+                        </p>
+                        <a href="mailto:2896198736@qq.com" class="email-link">
+                            <span class="email-icon">✉️</span>
+                            <span class="email-address">2896198736@qq.com</span>
+                        </a>
+                        <button class="btn btn-primary copy-email" data-email="2896198736@qq.com">
+                            复制邮箱地址
+                        </button>
+                    </div>
+
+                    <div class="support-card">
+                        <h2 class="support-card-title">发送邮件时请包含</h2>
+                        <ul class="support-checklist">
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div class="check-content">
+                                    <strong>问题描述</strong>
+                                    <p>详细描述您遇到的问题或建议</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div class="check-content">
+                                    <strong>设备信息</strong>
+                                    <p>您的手机型号和系统版本</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div class="check-content">
+                                    <strong>APP 版本</strong>
+                                    <p>您正在使用的 X Zone 版本号</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-icon">✓</span>
+                                <div class="check-content">
+                                    <strong>截图（如有）</strong>
+                                    <p>问题相关的截图可以帮助我们更快定位问题</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="support-sidebar">
+                    <div class="faq-card">
+                        <h3 class="faq-title">常见问题</h3>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>通知提醒不工作怎么办？</span>
+                                <span class="faq-arrow">›</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>请确保：</p>
+                                <ul>
+                                    <li>已授予 APP 通知权限</li>
+                                    <li>未开启省电模式</li>
+                                    <li>APP 未被系统后台清理</li>
+                                    <li>检查系统「勿扰模式」设置</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>位置记录不准确？</span>
+                                <span class="faq-arrow">›</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>请确保：</p>
+                                <ul>
+                                    <li>已授予「始终允许」位置权限</li>
+                                    <li>开启设备 GPS/定位服务</li>
+                                    <li>在开阔地带精度更高</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>数据会同步到云端吗？</span>
+                                <span class="faq-arrow">›</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>X Zone 的所有数据都存储在您的设备本地，不会上传到任何服务器。这意味着您的隐私得到完全保护，但也请注意定期备份设备数据。</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>如何切换深色模式？</span>
+                                <span class="faq-arrow">›</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>在「空间」页面中，点击右上角的设置图标，可以选择：</p>
+                                <ul>
+                                    <li>跟随系统</li>
+                                    <li>始终白昼模式</li>
+                                    <li>始终黑夜模式</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>APP 耗电量大吗？</span>
+                                <span class="faq-arrow">›</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>X Zone 使用智能后台调度，足迹记录约每 10-15 分钟记录一次，通知调度也经过优化，对电池影响很小。如果您不需要足迹功能，可以在设置中关闭以进一步省电。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="response-time-card">
+                        <div class="response-icon">⏱️</div>
+                        <h4>响应时间</h4>
+                        <p>我们通常会在 <strong>1-2 个工作日</strong> 内回复您的邮件</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">◈</span>
+                    <span class="logo-text">X Zone</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="support.html">技术支持</a>
+                </div>
+                <div class="footer-copyright">
+                    © 2024 X Zone. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

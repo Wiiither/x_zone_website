@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Zone - 个人生活管理工具</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">X Zone</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">首页</a>
+                <a href="support.html" class="nav-link">技术支持</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">个人生活管理工具</div>
+            <h1 class="hero-title">X Zone</h1>
+            <p class="hero-subtitle">整合时间、提醒与空间，让生活井井有条</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">了解更多</a>
+                <a href="support.html" class="btn btn-secondary">联系我们</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <div class="mock-header">
+                        <span>09:41</span>
+                    </div>
+                    <div class="mock-calendar">
+                        <div class="mock-month">2024 年 3 月</div>
+                        <div class="mock-days">
+                            <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+                        </div>
+                        <div class="mock-dates">
+                            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+                            <span>8</span><span class="active">9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+                        </div>
+                    </div>
+                    <div class="mock-timeline">
+                        <div class="mock-event event-work">团队会议</div>
+                        <div class="mock-event event-life">健身时间</div>
+                        <div class="mock-event event-important">项目截止</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">核心功能</h2>
+                <p class="section-subtitle">三大模块，全方位管理你的生活</p>
+            </div>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon timeline-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">时间轴</h3>
+                    <p class="feature-desc">日程与事件管理，直观的日历视图配合垂直时间轴，让你清晰掌握每一天的安排。</p>
+                    <ul class="feature-list">
+                        <li>日历视图支持周/月切换</li>
+                        <li>垂直时间轴按小时展示</li>
+                        <li>事件分类（工作/生活/重要等）</li>
+                        <li>灵活的提醒设置</li>
+                        <li>本地数据存储，隐私安全</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card featured">
+                    <div class="feature-badge">核心功能</div>
+                    <div class="feature-icon reminder-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">智能提醒</h3>
+                    <p class="feature-desc">周期性提醒功能，帮助你养成良好习惯，喝水、吃药、休息一个都不落。</p>
+                    <ul class="feature-list">
+                        <li>固定时间点提醒</li>
+                        <li>周期区间循环提醒</li>
+                        <li>自定义 Emoji 图标</li>
+                        <li>灵活开关控制</li>
+                        <li>智能调度，省电高效</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon space-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">空间足迹</h3>
+                    <p class="feature-desc">记录你去过的每一个地方，在地图上留下生活的印记，回顾精彩时刻。</p>
+                    <ul class="feature-list">
+                        <li>今日足迹地图展示</li>
+                        <li>自动位置记录</li>
+                        <li>逆地理编码显示地址</li>
+                        <li>历史足迹时间轴</li>
+                        <li>支持全屏地图查看</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="highlight-item">
+                    <div class="highlight-number">100%</div>
+                    <div class="highlight-label">本地存储</div>
+                    <p class="highlight-desc">数据完全存储在本地，保护你的隐私安全</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-number">🌓</div>
+                    <div class="highlight-label">深色模式</div>
+                    <p class="highlight-desc">支持亮色/暗色主题，跟随系统自动切换</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-number">⚡</div>
+                    <div class="highlight-label">后台运行</div>
+                    <p class="highlight-desc">智能后台任务调度，省电又高效</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-number">🗺️</div>
+                    <div class="highlight-label">开源地图</div>
+                    <p class="highlight-desc">基于 OpenStreetMap，免费开放</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">开始使用 X Zone</h2>
+                <p class="cta-desc">让时间、提醒与空间，在一个应用中完美融合</p>
+                <div class="cta-buttons">
+                    <a href="support.html" class="btn btn-light">联系我们</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">◈</span>
+                    <span class="logo-text">X Zone</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="support.html">技术支持</a>
+                </div>
+                <div class="footer-copyright">
+                    © 2024 X Zone. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
